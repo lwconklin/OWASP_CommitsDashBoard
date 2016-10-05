@@ -7,4 +7,4 @@ If project as been forked.
 
 Information is on https://www.openhub.net/orgs/OWASP.
 
-A lot of prpjects in github have OWASP in the description but not as the owner.
+A lot of projects in github have OWASP in the description but not as the owner.
