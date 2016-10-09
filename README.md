@@ -1,10 +1,14 @@
+
 # OWASP_CommitsDashBoard
 Proof of concept creating a DashBoard of projects in GitHub for OWASP. This code was written as a proof of concept to see if we can create a tool that would create as output a table for MediaWiki to show in www.owasp.org the wiki page would show what projects are active by using commits to determine project activity/health.
 
 A few push backs/issues...
 
-** If project has been branched it won't show until the branch is merge back to the main line.
+** If project has been branched it won't show until the branch is merge back to the master branch. Hence no active committs.
 
 ** Information is on https://www.openhub.net/orgs/OWASP.
 
 ** A lot of projects in github have OWASP in the description but not as the owner.
+
+Dependences:
+Newton Json and fix the reference in the project file. No other dependences exists.
