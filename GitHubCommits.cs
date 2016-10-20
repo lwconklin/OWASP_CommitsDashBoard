@@ -38,7 +38,7 @@ namespace OWASP_CommitsDashBoard {
                     break; // First commit in json array will be last commit made for the project
                 }
             }
-            catch (Exception e) {
+            catch (Exception) {
                 dbData.Commit_Author = string.Empty;
                 dbData.Commit_LastActivityDate = DateTime.MinValue;
                 try {
